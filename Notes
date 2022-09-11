@@ -1,0 +1,6 @@
+The Leaflet CSS and JavaScript files we added to the index.html file are referred to as content delivery networks (CDNs). Using CDNs has a security risk. To avoid the security risk, it's a best practice to include an integrity value with the CDN. Each file we added has its own integrity value, which is a Base64-encoded cryptographic hash of a resource that prevents the CDN from being hacked.
+
+NOTE
+For more about the Subresource Integrity value, please see the documentation on the Download Leaflet webpage (Links to an external site.) and Mozilla Developers' Subresource Integrity webpage (Links to an external site.).
+
+Make sure you copy and paste the Leaflet CSS file and JavaScript script from the website as they appear. Do not edit the script by deleting empty spaces. This will prevent that script from working on the index.html file, resulting in the map not being shown on the webpage.
